@@ -1,0 +1,27 @@
+{
+  "name": "gk-traders-paints-root",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "G.K Traders Paints - Complete MERN Full-Stack Application",
+  "scripts": {
+    "dev": "npm run start:both",
+    "dev:frontend": "cd GK-Traders-Paints/frontend && npm run dev",
+    "dev:backend": "cd GK-Traders-Paints/backend && npm run dev",
+    "start": "cd GK-Traders-Paints/backend && npm start",
+    "start:both": "node run-all.js",
+    "seed": "cd GK-Traders-Paints/backend && node src/utils/seed.js",
+    "build": "cd GK-Traders-Paints/frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "paints",
+    "ecommerce",
+    "gk-traders-paints"
+  ],
+  "author": "G.K Traders Paints",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^7.9.1"
+  }
+}
