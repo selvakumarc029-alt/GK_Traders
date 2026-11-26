@@ -964,6 +964,12 @@ export default function HomePage() {
                             ? '/indigo/other-products'
                             : item.slug === 'indigo-private-label'
                             ? '/indigo/private-label'
+                            : item.slug === 'birla-interior-paints'
+                            ? '/birla/interior-paints'
+                            : item.slug === 'birla-exterior-paints'
+                            ? '/birla/exterior-paints'
+                            : item.slug === 'birla-waterproofing'
+                            ? '/birla/waterproofing'
                             : item.category && item.category !== 'All'
                             ? `/products?brand=${encodeURIComponent(selectedBrand.name)}&category=${encodeURIComponent(item.category)}`
                             : `/products?brand=${encodeURIComponent(selectedBrand.name)}`;
