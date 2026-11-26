@@ -12,7 +12,7 @@ const WATERPROOFING_SECTIONS = [
     image: '/brands/dr-fixit.jpg',
     whatsappMsg:
       'Hello G.K Traders Paints, I want to enquire about Nerolac New Construction Waterproofing solutions.',
-    targetRoute: '/products?brand=Nerolac&category=Waterproofing',
+    targetRoute: '/nerolac/waterproofing/new-construction',
   },
   {
     id: 'repair-renovation',
@@ -22,7 +22,7 @@ const WATERPROOFING_SECTIONS = [
     image: '/paints/waterproofing.jpg',
     whatsappMsg:
       'Hello G.K Traders Paints, I want to enquire about Nerolac Repair & Renovation Waterproofing solutions.',
-    targetRoute: '/products?brand=Nerolac&category=Waterproofing',
+    targetRoute: '/nerolac/waterproofing/repair-renovation',
   },
 ];
 
