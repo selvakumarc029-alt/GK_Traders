@@ -970,6 +970,10 @@ export default function HomePage() {
                             ? '/birla/exterior-paints'
                             : item.slug === 'birla-waterproofing'
                             ? '/birla/waterproofing'
+                            : item.slug === 'birla-enamels'
+                            ? '/birla/enamels'
+                            : item.slug === 'birla-wood-finishes'
+                            ? '/birla/wood-finishes'
                             : item.category && item.category !== 'All'
                             ? `/products?brand=${encodeURIComponent(selectedBrand.name)}&category=${encodeURIComponent(item.category)}`
                             : `/products?brand=${encodeURIComponent(selectedBrand.name)}`;

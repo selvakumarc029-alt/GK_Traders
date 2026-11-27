@@ -41,6 +41,8 @@ import IndigoPrivateLabelPage from './pages/IndigoPrivateLabelPage';
 import BirlaInteriorPage from './pages/BirlaInteriorPage';
 import BirlaExteriorPage from './pages/BirlaExteriorPage';
 import BirlaWaterproofingPage from './pages/BirlaWaterproofingPage';
+import BirlaEnamelsPage from './pages/BirlaEnamelsPage';
+import BirlaWoodFinishesPage from './pages/BirlaWoodFinishesPage';
 
 // ErrorBoundary Component to prevent any page crash
 class ErrorBoundary extends React.Component {
@@ -145,6 +147,8 @@ export default function App() {
                 <Route path="/birla/interior-paints" element={<BirlaInteriorPage />} />
                 <Route path="/birla/exterior-paints" element={<BirlaExteriorPage />} />
                 <Route path="/birla/waterproofing" element={<BirlaWaterproofingPage />} />
+                <Route path="/birla/enamels" element={<BirlaEnamelsPage />} />
+                <Route path="/birla/wood-finishes" element={<BirlaWoodFinishesPage />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </ErrorBoundary>
